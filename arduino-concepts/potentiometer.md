@@ -95,5 +95,7 @@ The _fromHigh_ value is mapped to a value in _toHigh_, the fifth input parameter
 
 Now that you've set this up via **map()**, all the values in between will be corresponding as well so that when you move the potentiometer, you'll then see changes in the LED brightness.
 
+<hr/>
+
 ### Going Further
-This is just the basic outline of how to create a project using a potentiometer. Once you're ready, move on to the _Potentiometer Experimenter Challenge_!
+This is just the basic outline of how to create a project using a potentiometer. Once you're ready, move on to the [_Potentiometer Experimenter Challenge_!](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/dimmableled.md)
