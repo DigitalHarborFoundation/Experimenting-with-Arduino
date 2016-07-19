@@ -16,10 +16,6 @@ The best way to understand this project is with a project, so let's get to the e
 ## Project: Dialing in the LED
 
 ### Supplies
-
-**Reminder**: The 10k Ohm resistor is the brown/black/orange resistor. Here is an image:
-
-![10kOhm resistor](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/04/19211010/RES-103-DIAG-small-2983.png)
 - Uno and breadboard
 - Jumper wires
 - **(New!)** **Potentiometer**: The potentiometer is a knob. The one in your kit is a blue plastic knob, although other pots are sometimes metallic. Once the potentiometer is mounted, turning the knob will generate the range of input. Here is a picture of the one in your kit:
@@ -34,6 +30,7 @@ The project steps are broken down into the circuit setup and the sketch. Let's s
 
 #### Circuit
 Use this breadboard diagram as your guide:
+
 ![Potentiometer Breadboard Diagram](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/04/19211013/AnalogInput-3844.jpg)
 
 1. Connect the 5V (Power) on the Arduino to the + rail of the breadboard.
