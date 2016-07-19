@@ -55,4 +55,4 @@ You can run the same sketch as you did for the potentiometer! This works because
 ### New commands
 None! This project introduced a new component with no additional code for the sketch.
 
-### Going Further
+<!---### Going Further--->
