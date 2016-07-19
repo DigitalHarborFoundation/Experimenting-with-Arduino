@@ -74,23 +74,24 @@ Now for the code! You'll be getting the basic code template from a GitHub Gist a
 
 1. Make sure to connect the Arduino to your computer and configure the board and port connection before moving on.
 2. Navigate to this link and grab the sketch code from this Gist on Jonathan's GitHub:
-[Servo sketch code](https://gist.github.com/jonathanprozzi/e5a74481ecfd211a618483022b5633d0)
+    [Servo sketch code](https://gist.github.com/jonathanprozzi/e5a74481ecfd211a618483022b5633d0)
 
-![copying code](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30200936/bcpl_-_iot_-_gist_copy-400px1.jpg)
+    ![copying code](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30200936/bcpl_-_iot_-_gist_copy-400px1.jpg)
 
 3. Copy the entire gist code
 Gist is a great way to share code with your learners. For this project, go ahead and copy the entirety of the code (lines 1 - 41).
 
-To copy, use <strong>CMD + C</strong> on a Mac, or <strong>Ctrl + C</strong> on Windows.
+    To copy, use <strong>CMD + C</strong> on a Mac, or <strong>Ctrl + C</strong> on Windows.
 
-_Note_: Don't close the browser window incase you need to repeat this process!
+    _Note_: Don't close the browser window incase you need to repeat this process!
 
-![Copying into Arduino](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30201120/bcpl_-_iot_-_arduino_new_1-400px1.jpg)
+    - ![Copying into Arduino](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30201120/bcpl_-_iot_-_arduino_new_1-400px1.jpg)
 
-![Arduino 2](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30201125/bcpl_-_iot_-_arduino_new_2-400px2.jpg)
+    - ![Arduino 2](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30201125/bcpl_-_iot_-_arduino_new_2-400px2.jpg)
 
-4. Create a new Arduino sketch
-![New Sketch](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30201401/bcpl_-_iot_-_pasted_code_sketch-400px4.jpg)
+4. Create a new Arduino sketch:
+
+    ![New Sketch](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30201401/bcpl_-_iot_-_pasted_code_sketch-400px4.jpg)
 
 5. Paste the code into the new sketch</h3>
 Once you've created the new sketch, paste the <strong>entire</strong> copied code into the sketch. You should replace everything- don't leave the original <strong> setup and loop</strong> functions or the code won't work. Check that your code matches the image before proceeding.
