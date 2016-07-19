@@ -29,7 +29,7 @@ Let's take a look at two examples. The first is stripped down to demonstrate a c
 **Example one**:
 
 ```arduino
-    if (x &gt; 10) {
+    if (x > 10) {
         //if true, do these things
     } else {
         //if false, do these things
@@ -70,13 +70,15 @@ Now that you have an understanding of the structure of conditional statements, i
 ## Basic Operators
 
 This section includes some of the basic operators that you'll use in your Arduino projects. There are lots of resources available online, particularly on the [Arduino Reference Page](https://www.arduino.cc/en/Reference/HomePage) for a more in-depth list if you're wanting to develop a deeper understanding of this tool.
-
+<!---
 ### Assignment Operators
 You've already worked with the first type of operator, which is the <em>assignment operator</em>. These are operators that assign a value to to something on the left based on the evaluation of what's on the right. Here are some examples:
 
-<!--- double check syntax! --->
+
 
 There are several more, but these are some of the most common that you'll use for now.
+
+<!--- double check syntax! --->
 
 ### Comparison Operators
 Another type of operator is the <em>comparison operator</em>. This was used in the example above where the value of a "name" variable is checked to see if it is empty. These are commonly used in <em>if...else statements</em> because they return true or false based on the evaluation. Many of these are the same as what you've likely used in math classes. Here are some examples:
@@ -93,27 +95,3 @@ Another type of operator is the <em>comparison operator</em>. This was used in t
 One thing that you should remember is that when evaluating equality within conditional statements, you want to use the (==) operator. If you use only a single (=), Arduino thinks that you're attempting to assign a value and it can become confused about how to handle the statement.
 
 There are other operator types that you'll encounter, but for now focus on developing an understanding of how these operator types are used with conditional statements to provide control flow to your code.
-
-## Looping and Iterating
-Looping is another commonly used control flow technique, and the last one that this lesson will cover. There are several types of loops and iterators in JavaScript, but this section includes the most basic and most common in Arduino programming: the <em>For Loop</em>.
-
-Understanding the structure and purpose of the <em>For Loop</em> is important because it is a concept that is used in other languages as well.
-
-
-### Code Breakdown:
-Let's first look at the expressions contained within the ( ).
-<ul>
- 	<li>The first part, "var steps = 0;" is the initial value. The variable <em>i</em> is commonly used for this, but it doesn't need to be. The above example uses the variable <em>steps</em> for clarity. This first expression is the <em>starting point</em> of the loop. For this, the step counter begins at 0.</li>
- 	<li>The second part, "steps &lt; 10" is the limit of the loop. The loop will continue until this evaluates as false. In this case, the loop will continue until the <em>steps</em> variable is <em>no longer less than 10</em>.</li>
- 	<li>The last part, "steps++" is the iterator of the loop. The "++" is shorthand for "steps = steps + 1" This determines how the steps variable increments with each pass through the loop.</li>
-</ul>
-
-The example behaves in the following way:
-<ol>
- 	<li>The steps variable starts with a value of 0.</li>
- 	<li>The code inside the block statement executes and the following is logged to console:
-<img class="alignnone size-full wp-image-1330" src="http://learn.digitalharbor.org/wp-content/uploads/2016/07/web-dev-js_control-flow_console-output.jpg" alt="Control Flow - Console Output" /></li>
- 	<li>After the code in the block statement executes, the iterator progresses. In this example, the steps coutner increments by 1 each time the loop executes.</li>
- 	<li>The loop will run 10 times, beginning at 0 and ending at 9.</li>
- 	<li>Note that the variable <em>steps</em> is used within the block statement to log the current loop step. You can use the iterator variable just like you could with any other variable <em>within the scope of the for loop</em>.</li>
-</ol>
