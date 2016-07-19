@@ -46,7 +46,6 @@ This particular form includes an else { } block statement as well. This is the c
 
  This is a snippet of code using a concept that you'll integrate into an upcoming project.
 
-<pre class="lang:arduino decode:true ">
 ```arduino
 if (buttonState == HIGH) {
   // turn LED on:
