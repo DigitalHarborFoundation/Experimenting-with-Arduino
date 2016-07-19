@@ -74,7 +74,7 @@ Now for the code! You'll be getting the basic code template from a GitHub Gist a
 
 1. Make sure to connect the Arduino to your computer and configure the board and port connection before moving on.
 2. Navigate to this link and grab the sketch code from this Gist on Jonathan's GitHub:
-![Servo sketch code](https://gist.github.com/jonathanprozzi/e5a74481ecfd211a618483022b5633d0)
+[Servo sketch code](https://gist.github.com/jonathanprozzi/e5a74481ecfd211a618483022b5633d0)
 
 ![copying code](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30200936/bcpl_-_iot_-_gist_copy-400px1.jpg)
 
