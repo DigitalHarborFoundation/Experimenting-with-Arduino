@@ -74,8 +74,8 @@ It's time to level up your LED skills! Instead of the state of the LED being sol
 - 220 or 560 Ohm resistor (for the LED)
 
 #### Steps (Board):
-Refer to this _Fritzing Diagram_ from [Arduino Reference: Buttons](https://www.arduino.cc/en/Tutorial/Button) page:
-![Arduino Button](https://www.arduino.cc/en/uploads/Tutorial/button.png)
+Refer to this _Fritzing Diagram_:
+![Arduino Button](http://i.imgur.com/gqRs7mo.png)
 
 1. Once your supplies are gathered, connect the breadboard to the Arduino:
     - - rail on the breadboard connects to GND on Uno
@@ -89,7 +89,7 @@ Refer to this _Fritzing Diagram_ from [Arduino Reference: Buttons](https://www.a
 7. Connect the LED to PIN 13 (or whatever pin you set) using the resistor, as you did in previous projects.
 
 #### Steps (Code):
-1. Navigate to this link and copy the code:
+1. Navigate to this link and copy the code: [Pushbutton and Led - Gist](https://gist.github.com/jonathanprozzi/cf8b7669e5653bc1a630e5d2c1ba99e1)
     - CMD + C to copy
 2. Make a new sketch and paste the _entire_ code into the sketch
 3. Make changes to the code, but make sure to pay attention to the _code comments_ so that you know what you can and can't change.
@@ -103,6 +103,8 @@ You've now practiced the basics of _digital input_ and _digital output_, and you
 **digitalRead()** can be used to _read_ the state of a digital pin. This means that you can use this to _check_ whether or not a certain state is HIGH or LOW.
 
 Here is some basic code (from the same _Arduino Reference_ page) outlining the process:
+
+If you're looking for the complete code, head to the Gist link.
 
 _Note that these are snippets from the entire code._
 
