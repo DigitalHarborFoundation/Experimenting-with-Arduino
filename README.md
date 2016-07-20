@@ -7,7 +7,7 @@ Content written by Jonathan Prozzi and Shawn Grimes of [Digital Harbor Foundatio
 Certain guides and projects contain code from the [Arduino Reference](http://www.arduino.cc). 
 
 <hr/>
-## Licence
+## License
 
 This collection of guides and projects is available under the Creative Commons 3 license:
 
