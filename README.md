@@ -1,4 +1,4 @@
-# Experimenting-with-Arduino
+# Experimenting with Arduino
 
 Guides and projects for the _Experimenting with Arduino_ Maker Camp at Digital Harbor Foundation. 
 
