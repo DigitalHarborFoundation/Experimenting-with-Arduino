@@ -106,6 +106,6 @@ It's good to know both methods of playing sound. Remember, as long as the second
 ### Going Further
 Now that you know the basics of outputting sound from the Arduino, go ahead and explore some different sequences! Here's some helpful guides that include notes and their corresponding frequencies.
 
-[Arduino Reference: Tone](https://www.arduino.cc/en/Reference/Tone) - This is the official reference page from Arduino. 
+[Arduino Reference: Tone](https://www.arduino.cc/en/Reference/Tone) - This is the official reference page from Arduino.
 
 [Arduino Tutorial: Tone](https://www.arduino.cc/en/Tutorial/ToneMelody?from=Tutorial.Tone) - This tutorial has more detail about using **tone()** in your projects.
