@@ -21,7 +21,7 @@ For the introduction to the piezo, you're going to be using an example sketch pr
 - Piezo element
 
 ### Steps
-The steps for this project are split between the circuit setup and the sketch itself. Since this sketch introduces new commands, there will be a section explaining each new command.
+The steps for this project are split between the circuit setup and the sketch itself. Since this sketch introduces new commands, there will also be a section explaining each new command.
 
 #### Circuit
 Refer to this _fritzing diagram_ for the circuit setup:
