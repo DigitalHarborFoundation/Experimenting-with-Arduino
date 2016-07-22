@@ -29,6 +29,20 @@ Use this breadboard diagram as your guide:
 
 ![Theremin Diagram](http://i.imgur.com/fUH08d0.png)
 
+1. Connect the 5V of the Arduino to the + rail of the breadboard.
+2. Connect the GND of the Arduino to the - rail of the breadboard.
+3. Attach the _piezo element_ to the breadboard.
+4. Connect one leg of the piezo to the - rail of the breadboard.
+5. Connect the other leg of the piezo to _digital pin 9_ or whatever other pin that you select. Remember, if you change this pin number you'll need to change it in the sketch as well!
+6. Attach the _photoresistor_ to the breadboard.
+7. Connect one leg of the photoresistor to the + rail of the breadboard.
+8. Place a 10k Ohm resistor from the - rail of the breadboard to the other leg of the photoresistor.
+9. Connect the leg of the photoresistor that has the 10k Ohm resistor to _analog input A0_. If you change this input pin, make sure to change it in the code as well.
+
+_Note_: The analog input connection for the photoresistor should be placed on the breadboard in between the 10k resistor and the photoresistor leg.
+
+For example, let's say the photoresistor leg is on 27e on the breadboard. You'd want to place the resistor on 27a and the analog input jumper on 27c.
+
 #### Sketch
 
 The photoresistor input is going to be used to control the pitch of the piezo element. There will be some additional _Experiementer Challenges_ where you'll be able to modify some of the functionality, but the base sketch will be using the photoresistor to control pitch.
