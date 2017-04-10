@@ -9,7 +9,7 @@ Certain guides and projects contain code from the [Arduino Reference](http://www
 ## Table of Contents
 This is broken into four sections. Introductory Concepts, Arduino Concepts, Programming Concepts, and Projects and Challenges.
 
-### Introductory Concepts
+### First Connections
 1. [Introduction to Arduino](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/intro.md)
 2. [Intro to the Arduino IDE](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/introide.md)
 3. [Connecting the Board](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/ide.md)
