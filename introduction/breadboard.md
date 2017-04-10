@@ -24,6 +24,7 @@ Jumpers are wires that bridge connections between two devices. In this project, 
 
 Contrary to what movies would like you to believe, the wire color means nothing. It can be a useful guide for human beings, but the electronics don't care. I generally try to use red colored wires for power and black or green wires for GND connections. Again, this is a guide and if I run out of red wire, I often substitute for whatever my hand touches first in the box of jumper wires.
 
+<!--
 ## Activity: Putting it all Together
 This aim of this activity is to transition your blinking LED project to the breadboard.
 
@@ -61,4 +62,4 @@ This project challenge will require you to work with some additional resistors a
 Don't feel like you're bound to using red, yellow, and green LEDs! You should use three unique colored LEDs, but the colors that you select are up to you.
 
 #### Project Steps:
-<!--- project guide will be written up and include --->
+<!--- project guide will be written up and include -->
