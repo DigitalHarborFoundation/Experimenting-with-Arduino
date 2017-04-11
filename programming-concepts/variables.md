@@ -1,4 +1,4 @@
-#What are Variables?
+## What are Variables?
 
 **Variables** are one of the cornerstones of programming and development. At the most basic level, variables are containers. On their own, a variable is just an empty placeholder waiting to store a value. Variables have a _type_, _name_, and _value_. Once data is stored inside a variable, it can be used and manipulated in your scripts.
 
@@ -61,7 +61,7 @@ Note that the ledPin variable is accessed in the **void loop()** later in the ex
 #### Test it!
 
 Go ahead and move the variable declaration into the **void setup()** function and test your code. You'll get an undefined error.
-
+<!--
 ### Activity: Practicing with Variables
 Variables make your code much more flexible. The purpose of this quick activity is to practice integrating variables into a familiar project before you dive into a completely new concept.
 
@@ -80,6 +80,6 @@ Variables make your code much more flexible. The purpose of this quick activity 
 5. Test your code and debug any errors.
 
 <hr/>
-
+-->
 ### Resources
 [Arduino Reference](https://www.arduino.cc/en/Tutorial/Variables) : This is the Arduino Reference page for variables. There is lots of useful content as well as more examples.
