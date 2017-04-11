@@ -44,7 +44,7 @@ This is broken into four sections. Introductory Concepts, Arduino Concepts, Prog
 9. [Night Light](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/nightlight.md)
 10. [Basic Theremin](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/theremin.md)
 
-<hr/>
+--- 
 ## License
 
 This collection of guides and projects is available under the Creative Commons 3 license:
