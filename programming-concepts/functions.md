@@ -13,9 +13,9 @@ Going back to the basic _Blink_ example (thought you could get away from that ex
 One of the most common questions from new programmers is "what is the benefit of writing a function?" One of the key benefits is that functions allow you to write modular, reusable code. If you find yourself writing the same code multiple times, it's time to consider putting that code inside a function that can then be _called_ whenever you need it!
 
 Here are some other key benefits of functions:
-- Organization of code : Grouping your code into functions helps streamline and conceptualize your project.
-- Clarity of code : Building out the functions that you need to accomplish the goal of your project often gives clarity to what you're doing.
-- Makes your code compact : Once you get into the practice of creating and reusing functions, you'll see that your code becomes much more precise.
+- **Organization of code**: Grouping your code into functions helps streamline and conceptualize your project.
+- **Clarity of code**: Building out the functions that you need to accomplish the goal of your project often gives clarity to what you're doing.
+- **Makes your code compact**: Once you get into the practice of creating and reusing functions, you'll see that your code becomes much more precise.
 
 ## Structure of a Function
 Just like in math class, functions often receive an input and _return_ an output. This concept of returning a value is very important. Let's take a quick look at the structure of a function. Check out this image from the [_Arduino Reference_](https://www.arduino.cc/en/Reference/FunctionDeclaration) documentation:
@@ -34,7 +34,7 @@ Here's a quick overview of how that example function would work:
 
 Consider the **void setup()** and **void loop()** functions that you've already worked with. These are of type _void_ because they don't return a value after they're executed.
 
-The myMultiplyFunction() would be declared somewhere else in your code, _outside_ of either the **setup** or **loop** functions, and then can be called after it's created.
+The **myMultiplyFunction()** would be declared somewhere else in your code, _outside_ of either the **setup** or **loop** functions, and then can be called after it's created.
 
 This function would then need to be called somewhere in your code. The following example on the [_Arduino Reference_](https://www.arduino.cc/en/Reference/FunctionDeclaration)  page includes the function inside the **void loop()** :
 
