@@ -14,15 +14,16 @@ These wires then connect to the Arduino board. The Arduino sends electric pulse 
 ![Servo wires](http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30211756/bcpl-workshop-iot-servo-2.jpg)
 
 ### Servos and Arduino
-Once the servo motor is connected to an Arduino board, you're able to control the angle of the shaft position, typically between a range of _0 to 180 degrees_. There are certain types of servos that are _continuous rotation_ that can move at different speeds, but the more common types work within a range of 0 to 180 degrees and move one step (degree) at a time.
+Once the servo motor is connected to an Arduino board, you're able to control the angle of the shaft position, typically between a range of **0 to 180 degrees**. There are certain types of servos that are **continuous rotation** that can move at different speeds, but the more common types work within a range of 0 to 180 degrees and move one step (degree) at a time.
 
-In order to work with servos, you'll need to import a code _library_ specifically for the servo. There are several Arduino libraries that you're able to include in projects. Often these libraries are written to provide additional support or functionality for working with certain components. Practicing importing and including libraries will open up lots of projects and ideas!
+In order to work with servos, you'll need to import a **code library** specifically for the servo. There are several Arduino libraries that you're able to include in projects. Often these libraries are written to provide additional support or functionality for working with certain components. Practicing importing and including libraries will open up lots of projects and ideas!
 
-The _Servo Library_ can support up to **12** motors on the board, and uses a special **servo.write()** command to send position data to the motor. The **servo.write()** is from the Servo Library and the Arduino IDE wouldn't understand what it means without including the library.
+The _Servo Library_ can support up to **12** motors on the board, and uses a special **servo.write()** command to send position data to the motor. The **servo.write()** method is from the Servo Library and the Arduino IDE wouldn't understand what it means without including the library.
 
 You'll have the entirety of the code to experiment with, but let's cover some key parts:
 
 **Including a Library**: to include a library in your code, you place an _include_ at the top of your code, before anything else:
+
 ```arduino
         #include <Servo.h> //This is necessary when working with servos. It includes the servo library.
 ```
@@ -31,11 +32,11 @@ The name of the library goes in the < >. In this example, it's called _Servo.h_
 
 Many times when working with libraries there are code examples that you can reference if you need help knowing what to include.
 
-**Creating a servo object**: the next key piece of code creates a servo object. This is what the Arduino uses to work with the servo component:
+**Creating a servo object**: the next key piece of code creates a servo object. This is what the Arduino uses to work with the servo component. This line of code creates a Servo object that is named _myservo_.
 ```arduino
 Servo myservo;  // create servo object to control a servo
 ```
-After you've done this step, you're then able to interact with the servo that you've attached to your board.
+After you've done this step, you're then able to interact with the servo motor that you've attached to your board.
 
 **Connecting the servo**: Just like when working with any of the other components, such as the LED, you need to tell the Arduino the pin number where the component is attached. For the servos, this is the pin that the orange (signal) wire connects with. Here's the code that goes into the **void setup()**:
 
@@ -57,7 +58,7 @@ For this activity, you're going to practice the basic servo connection and exper
 The servo needs to be attached to an Arduino pin that is capable of **PWM**, since that's how the servo is powered. These are the pins with the **~** symbol, such as **~9**.
 
 Refer to this Fritzing diagram:
-![Servo circuit](http://i.imgur.com/TbdwRUZ.png)
+![Servo circuit](http://dhf-website.s3.amazonaws.com/images/ardEdu-servoMotor_bb.jpg)
 
 1. Once your supplies are gathered, connect the breadboard to the Arduino:
     - _- rail_ on the breadboard connects to _GND_ on Uno
@@ -104,4 +105,4 @@ The modifications that you make depend on what you want to do for your project. 
 
 The code comments contain some suggestions for places to modify, but here are some starting points:
 
-In the <strong>void loop()</strong> function, you can change the speed, starting position, and end position of the servo. If you want to do this, find the <strong>for loops</strong> on lines 19 and 31. The first one is for the forward motion of the servo and the second one is for the return motion. Experiment with modifying these positions and the <strong>delay</strong> values! Use the commented code as a reference point.
+In the void loop() function, you can change the speed, starting position, and end position of the servo. If you want to do this, find the **for loops** on lines 19 and 31. The first one is for the forward motion of the servo and the second one is for the return motion. Experiment with modifying these positions and the **delay** values! Use the commented code as a reference point.
