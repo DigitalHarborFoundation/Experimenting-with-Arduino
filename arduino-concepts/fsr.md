@@ -27,14 +27,16 @@ The steps for this project are split between the circuit setup and the sketch it
 #### Circuit
 Refer to this _fritzing diagram_ for the circuit setup:
 
-![FSR-Fritzing Diagram](http://i.imgur.com/RGQD56C.png)
+![FSR-Fritzing Diagram](http://dhf-website.s3.amazonaws.com/images/ArdExp-FSR_bb.png)
 
-1. Connect the Arduino **5V** to the **+ rail** on the breadboard.
-2. Connect the Arduino **GND** to the **- rail** on the breadboard.
+1. Connect the **Arduino 5V** to the **+ rail** on the breadboard.
+2. Connect the **Arduino GND** to the **- rail** on the breadboard.
 3. Connect one leg of the **FSR** to the **+ rail** on the breadboard.
-4. Attach a 10k Ohm resistor between the **-- rail** and the other leg of the **FSR**.
-5. Connect the FSR leg with the 10k resistor to **Arduino: A0** pin. The connection should look like this:
-    - 10k resistor from - rail to B, jumper to A0 on C, and FSR leg on E. The A0 connection is placed between the resistor and the FSR leg.
+4. Attach a **10k Ohm resistor** between the **-- rail** and the other leg of the **FSR**.
+5. Connect the **FSR leg with the 10k resistor** to **Arduino: A0** pin. The connection should look like this:
+    - 10k resistor from - rail, jumper to A0, then to FSR leg. The A0 connection is placed between the resistor and the FSR leg.
+
+This is the same setup as the photoresistor circuit, except with the FSR instead of the photoresistor.
 
 #### Sketch
 Here's the basic sketch to get up and running with the FSR. Experiment with changing some of the values. The serial monitor is included so that you can monitor the input values from the FSR.
@@ -69,8 +71,7 @@ void loop() {
 }
 ```
 
-<hr/>
-### Going Further
-Now that you have a basic understanding of how to setup the FSR circuit, go ahead and begin integrating it into some of your other circuits!
+---
 
-For starters, check out the _Experimenter Challenge_ for the FSR. 
+## Going Further
+Now that you have a basic understanding of how to setup the FSR circuit, go ahead and begin integrating it into some of your other circuits!
