@@ -1,4 +1,4 @@
-# Fading LED
+# Challenge: Fading LED
 This project builds on the basic concept that you practiced in the _analog output_ guide. Remember, Arduino doesn't have an actual analog output, so to get the dimming effect you have to use _Pulse Width Modulation (PWM)_ to send short cycles of power to the pin.
 
 You used this to create a basic fading LED. This project will challenge you to take it even further!
