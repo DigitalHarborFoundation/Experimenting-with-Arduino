@@ -50,7 +50,7 @@ After completing the base activity and successfully wiring up the LEDs and the b
 
 **Challenge Two**: Create a physical enclosure for your lights and button, as if you're creating a dashboard or an interface for the lights and buttons. Consider programming the button in such a way that it *powers up* the console once it's activated!
 
-#### Overview:
+## Overview:
 The goal of this experiment is to develop an understanding of pushbuttons and how they fit within a circuit. Once you've developed an understanding of this process, you'll be able to repeat the button circuit and add it to other projects!
 
 Remember, while this particular project used a button to control LEDs, you could easily swap out other components and make a button that controls something else, such as a servo motor!
