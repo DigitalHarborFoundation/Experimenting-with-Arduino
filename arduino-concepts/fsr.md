@@ -70,7 +70,6 @@ void loop() {
   delay(100); //delay the writing slightly  
 }
 ```
-
 ---
 
 ## Going Further
