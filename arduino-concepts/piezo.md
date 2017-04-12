@@ -1,4 +1,4 @@
-# Making Sound with Arduino
+## Making Sound with Arduino
 In addition to all the other great things you've controlled so far with the Arduino, you're also able to work with sound! Incorporating the _piezo element_ will open up exciting new possibilities and enable you to create your own Arduino music instruments!
 
 Up to this point you've manipulated light by programming LEDs and reading input from a photoresistor. You've worked with motion through reading the input of a potentiometer as well as programming the turns and steps of a servo motor. Now you're going to enter into a world of experimentation that is totally new: sound and audio!
@@ -12,7 +12,7 @@ The core component that you'll use in this process is the piezo element. It's a 
 
 Connecting a piezo is similar to how you connect an LED. One of the legs attaches to GND and the other to a digital pin.
 
-### Project: Make Some Sound
+## Project: Make Some Sound
 For the introduction to the piezo, you're going to be using an example sketch provided by Adafruit.
 
 ### Supplies
@@ -28,8 +28,8 @@ Refer to this _fritzing diagram_ for the circuit setup:
 
 ![Piezo Fritzing Diagram](http://i.imgur.com/3NnMOtYg.png)
 
-1. Connect the Arduino **5V** to the **+ rail** on the breadboard.
-2. Connect the Arduino **GND** to the **- rail** on the breadboard.
+1. Connect the **Arduino 5V** to the **+ rail** on the breadboard.
+2. Connect the **Arduino GND** to the **- rail** on the breadboard.
 3. Connect one leg of the **piezo** to the **- rail** on the breadboard.
 4. Connect one leg of the **piezo** to a **digital pin** on the Arduino. In this example, the connection is to **digital pin 9**.
 
@@ -82,7 +82,7 @@ Remember, the code within the for loop will run for each item in the list, until
 
 The **tone()** command is then used to actually play the sound. Let's examine that in further detail since it's a new command!
 
-### New Commands
+## New Commands
 
 **tone()** : This is the command for emitting sound from the piezo element, and it takes two arguments. The first is the pin that the sound should be emitted from, in this case it's the **speakerPin** variable that stores the pin number that the piezo is connected to.
 
@@ -100,10 +100,9 @@ It's good to know both methods of playing sound. Remember, as long as the second
 
 **noTone()** is the other new command. It's commented out in the code example, but this command terminates the sound being played from the pin that the speaker is connected to. It takes one argument: the speaker pin number. This is used to stop all sound generation.
 
+---
 
-<hr/>
-
-### Going Further
+## Going Further
 Now that you know the basics of outputting sound from the Arduino, go ahead and explore some different sequences! Here's some helpful guides that include notes and their corresponding frequencies.
 
 [Arduino Reference: Tone](https://www.arduino.cc/en/Reference/Tone) - This is the official reference page from Arduino.
