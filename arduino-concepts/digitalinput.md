@@ -1,5 +1,5 @@
 ## Working with Digital Input
-Now that you've explored and experimented with _Digital Output_, it's time to jump into it's complimentary concept: _Digital Input_. Before starting, let's do a quick refresher about the basics of Digital Output.
+Now that you've explored and experimented with **Digital Output**, it's time to jump into it's complimentary concept: **Digital Input**. Before starting, let's do a quick refresher about the basics of Digital Output.
 
 ### Digital Output Recap
 
@@ -11,15 +11,15 @@ The most basic example of this ON/OFF output is the LED changing states. Next yo
 
 Next, let's continue with the LED example, but instead of looking at the output you're going to now consider the input.
 
-Recall that digital has two states, the form that this takes for input would again be ON and OFF. The most basic example of digital input is a _light switch_. A typical, straight forward light switch has two states: ON and OFF. This is digital input.
+Recall that digital has two states, the form that this takes for input would again be ON and OFF. The most basic example of digital input is a **light switch**. A typical, straight forward light switch has two states: ON and OFF. This is digital input.
 
 ### Digital Input with Arduino
 
-Recall that _digitalWrite()_ is the command linked with _digital output_. Now let's introduce the corresponding command for _digital input_ : _digitalRead()_.
+Recall that _digitalWrite()_ is the command linked with digital output. Now let's introduce the corresponding command for digital input : _digitalRead()_.
 
 **digitalRead()** works similarly to its complimentary pair in that it requires a pin as a parameter. You'll also need to configure **pinMode()** to be set for _input_ instead of output like you've used thus far.
 
-The _digital input_ "Hello World" project is to use a pushbutton to turn an LED on and off. Previously, the LED state was controlled entirely by the code that you sent to the board. This time, a physical button is going to be controlling the state.
+The digital input "Hello World" project is to use a pushbutton to turn an LED on and off. Previously, the LED state was controlled entirely by the code that you sent to the board. This time, a physical button is going to be controlling the state.
 
 Let's examine some pushbutton code from the [Arduino Reference](https://www.arduino.cc/en/Reference/DigitalRead):
 
@@ -42,7 +42,8 @@ void loop()
 ```
 
 Now, let's break this code down by section:
-#### Code Breakdown
+
+### Code Breakdown
 - **Global Variables** :
     - 3 global variables are initialized: _ledPin_, _inPin_, and _val_. Note that these are all type _int_
     - inPin is given a value of 7, meaning that digital pin 7 is the pin where the pushbutton will be attached.
@@ -62,6 +63,51 @@ When the button is released, the circuit is no longer complete and the LED turns
 
 Essentially, the button connects to the **5V (POWER)** when the button is pressed. This results in a HIGH reading, which then turns ON the LED. Once the button is released, **5V** is essentially disconnected, which then turns OFF the LED.
 
+## digitalRead()
+At this point you should know the difference between digital input and digital output, and have honed your digitalWrite() skills. But you haven't jumped into digitalRead() yet!
+
+digitalRead() _reads_ the state of a digital pin. This means that you can use this to _check_ whether or not a certain state is HIGH or LOW.
+
+Here is some basic code (from the same _Arduino Reference_ page) outlining the process:
+
+If you're looking for the complete code, head to the Gist link.
+
+**Note that these are snippets from the entire code.**
+
+```arduino
+int buttonState = 0;         // variable for reading the pushbutton status
+
+...
+
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed.
+  // if it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+
+In this example, the variable _buttonState_ is declared globally. This is going to have either a 1 or a 0 as a value. It's initialized as a 0.
+
+In the void loop() code, there is a conditional statement being used to check the state of the button. This is done with digitalRead(buttonPin) which checks to see if the button is currently reading HIGH or LOW. If it's HIGH, then the LED should be ON, and if the button state is LOW, then the LED should be OFF.
+
+The next challenge, the _LED Flashlight_, involves both digital input and digital output and you'll use a pushbutton and LEDs.
+
+---
+
+### Resources
+- [Arduino Reference Documentation](https://www.arduino.cc/en/Tutorial/Button) : This has more details about buttons in Arduino, and is where the example code in this lesson are sourced from.
+
+
+<!--
 ### Activity: Button Practice
 It's time to level up your LED skills! Instead of the state of the LED being solely determined by your code (blinking on and off in a loop), you're going to attach a button so that you can control whether the LED is on or off.
 
@@ -134,7 +180,4 @@ In this example, the variable _buttonState_ is declared globally. This is going 
 
 In the **void loop()** code, there is a conditional statement being used to check the state of the button. This is done with **digitalRead(buttonPin)** which checks to see if the button is currently reading HIGH or LOW. If it's HIGH, then the LED should be ON, and if the button state is LOW, then the LED should be OFF.
 
-<hr/>
-
-### Resources
-- [Arduino Reference Documentation](https://www.arduino.cc/en/Tutorial/Button) : This has more details about buttons in Arduino, and is where the example code in this lesson are sourced from.
+-->
