@@ -29,12 +29,12 @@ The steps for this project are split between the circuit setup and the sketch it
 #### Circuit
 Refer to this _fritzing diagram_ for the circuit setup:
 
-![Tilt Sensor- Fritzing](http://i.imgur.com/hJ1g1xp.png)
+![Tilt Sensor Circuit Diagram](http://dhf-website.s3.amazonaws.com/images/ArdExp-tiltLights_bb.png)
 
-1. Connect the Arduino **5V** to the **+ rail** on the breadboard.
-2. Connect the Arduino **GND** to the **- rail** on the breadboard.
+1. Connect the **Arduino 5V** to the **+ rail** on the breadboard.
+2. Connect the **Arduino GND** to the **- rail** on the breadboard.
 3. Connect one leg of the **tilt sensor** to the **+ rail** on the breadboard.
-4. Attach a 10k Ohm resistor between other leg of the **tilt sensor** and the **- rail** of the breadboard
+4. Attach a **10k Ohm resistor** between other leg of the **tilt sensor** and the **- rail** of the breadboard
 5. Connect the leg of the **tilt sensor** that has the 10k resistor to the input pin. In this example, it's pin 2.
 6. For each LED, connect the positive leg (long leg) to an Arduino pin.
 7. For each LED, attach a 220 or 560 Ohm resistor from the negative leg (short leg) to the **- rail**.
@@ -119,14 +119,14 @@ The LEDs are then set to the appropriate state by using the _LEDstate_ variable.
 
 At the end of the loop, the current state is stored in the _previous_ variable.
 
-### New Commands
+## New Commands
 - **unsigned long** is a type of variable that is meant to store long numbers. Since the time and millis values can become quite long, this type is used.
 - **millis()** is a command that returns the number of seconds that the current Arduino program has been running.
 - **debounce** is a new concept. Note that debounce is the variable name. Debouncing is when an input is checked twice within a (typically) short period of time to make sure that the input has been triggered. In this example, the debounce variable is being used to check to make sure that the tilt sensor has actually changed states.
 
-<hr/>
+---
 
-### Going Further
+## Going Further
 After you understand the concepts used in this project, you should experiment with changing the values of the LEDs.
 
 Remember, the tilt sensor is similar in functionality to a pushbutton, so any of the challenges you did with buttons can apply to this as well!
