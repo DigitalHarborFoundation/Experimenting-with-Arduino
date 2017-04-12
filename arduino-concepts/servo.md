@@ -46,15 +46,15 @@ myservo.attach(9);  // attaches the servo on pin 9 to the servo object- needs to
 
 That covers the key parts of the code. For the project, you'll have code provided that you can experiment with and tweak.
 
-### Activity: Setting up a Servo
+## Activity: Setting up a Servo
 For this activity, you're going to practice the basic servo connection and experiment with the code. Once you have the basic concept, you'll then be able to integrate servos into more of your projects as well as combine them with other components.
 
-#### Supplies:
+### Supplies:
 - Uno board and breadboard
 - Servo motor
 - Three jumper wires
 
-#### Steps (Board):
+### Steps (Board):
 The servo needs to be attached to an Arduino pin that is capable of **PWM**, since that's how the servo is powered. These are the pins with the **~** symbol, such as **~9**.
 
 Refer to this Fritzing diagram:
@@ -70,7 +70,7 @@ Refer to this Fritzing diagram:
     4. Finally, connect the jumper wire attached to the **orange servo wire (signal)** to a jumper that connects to **pin 9** on the Arduino.
 3. Note that if you change the pin number in either the board or the code, it must match. **You need to use a pin with a ~**.
 
-#### Steps (Code):
+### Steps (Code):
 Now for the code! You'll be getting the basic code template from a GitHub Gist account. There will be comments in the code for you to follow and modify.
 
 1. Make sure to connect the Arduino to your computer and configure the board and port connection before moving on.
@@ -99,7 +99,7 @@ Once you've created the new sketch, paste the <strong>entire</strong> copied cod
 
 6. Begin modifying the code! Follow the comments and experiment. _Save your sketch!_
 
-#### Going Further:
+## Going Further:
 
 The modifications that you make depend on what you want to do for your project. This guide is for the basic servo example.
 
