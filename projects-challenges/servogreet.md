@@ -50,7 +50,7 @@ As a quick check, line 6 of your sketch should read: "#include <Servo.h> //This 
 
 <img src="http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30202428/Arduino_Connection_To_Computer-small-400px1.jpg" alt="Arduino_Connection_To_Computer-small-400px1" width="400" height="457" class="alignnone size-full wp-image-3860" />
 
-<h3>Step 8: Connect the Arduino to your computer</h3>
+<h3>Connect the Arduino to your computer</h3>
 Connect the Arduino to your computer via USB. You'll see some lights on your Arduino begin to glow. If you see these, your Arduino is now being powered by your computer's USB! If you don't see any lights on the Arduino, try unplugging it and reconnecting.
 
 <img src="http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30202635/Arduino_Board_Selector-small-400px1.jpg" alt="Arduino_Board_Selector-small-400px1" width="400" height="318" class="alignnone size-full wp-image-3861" />
@@ -86,9 +86,6 @@ For this particular servo, here is the polarity:
 If your servo doesn't have the hinge attached, find the single-arm hinge and just pop it onto the top of the servo. It snaps into place with minimal effort.
 
 Use 3 jumper wires and attach them to the end of the servo wire bundle. The jumper wire color doesn't matter, but it's common to use black for your ground and red for power. Just remember which color jumper you attach to each servo wire.
-[/three_fifth_last]
-
-
 
 <img src="http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30211806/bcpl-workshop-iot-servo-4.jpg" alt="bcpl workshop - iot - servo 4" width="400" height="299" class="alignnone size-full wp-image-3867" />
 
@@ -98,7 +95,6 @@ Before attaching the servo to the Arduino, you'll want to build out the popsicle
 Tape the popsicle stick to the servo hinge. The servo in this example uses a single-armed hinge. If you only have the full servo hinges (double sided) you can just cut off one side of the arm.
 
 However you choose to align and tape the popsicle stick is up to you. You may need to adjust it throughout your project. You'll definitely need to tape it in such a way that the servo lies completely on it's back, as in the image. Otherwise your servo will not be sturdy.
-
 
 <img src="http://d3nnidcq81r9m6.cloudfront.net/wp-content/uploads/2016/05/30213451/bcpl-workshop-iot-arduino.jpg" alt="bcpl workshop - iot - arduino" width="400" height="299" class="alignnone size-full wp-image-3873" />
 
