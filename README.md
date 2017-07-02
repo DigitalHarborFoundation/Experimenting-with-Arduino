@@ -26,7 +26,26 @@ This is broken into four sections. Introductory Concepts, Arduino Concepts, Prog
 6. [Challenge: Blink Re-Code](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/blink-recode.md)
 7. [Challenge: LED Flashlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/led-flashlight.md)
 
-### Arduino Concepts
+### Day 3: Analog Output and More
+1. [Analog Output](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analogoutput.md)
+2. [Fading LED](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/fading-led.md)
+
+### Day 4: Analog Input and More
+1. [Analog Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analoginput.md)
+2. [Serial Monitor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/serial.md)
+3. [LED Dimmer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/dimmableled.md)
+4. [LED Nightlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/nightlight.md)
+5. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
+
+### Day 5: Servo Greeter
+
+### Day 6: Piezo Element and More Experiments
+
+### Day 7: FSR, Tilt Sensor, and More
+
+### Day 8: Other Projects, Bonus Challenges
+
+### Days 9 - 10: Capstone!
 
 2. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
 3. [Analog Output](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analogoutput.md)
