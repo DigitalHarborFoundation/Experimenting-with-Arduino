@@ -13,7 +13,7 @@ This is broken into four sections. Introductory Concepts, Arduino Concepts, Prog
 1. [Introduction to Arduino](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/intro.md)
 2. [Intro to the Arduino IDE](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/introide.md)
 3. [Connecting the Board](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/ide.md)
-4. [Arduino Coding Basics](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/progbasics.md)
+4. [Arduino Coding Basics](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/arduino-programming-basics.md)
 
 ### Programming Concepts
 1. [Variables](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/variables.md)
