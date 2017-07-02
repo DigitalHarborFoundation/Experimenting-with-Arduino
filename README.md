@@ -17,13 +17,17 @@ This is broken into four sections. Introductory Concepts, Arduino Concepts, Prog
 5. [Working with Breadboards](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/breadboard.md)
 6. [Circuit Diagrams](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/circuit-diagrams.md)
 
-### Programming Concepts
+### Day 2: Variables and Control Flow
 1. [Variables](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/variables.md)
-2. [Control Flow](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/controlflow.md)
-3. [Functions](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/functions.md)
+2. [Conditional Logic]()
+3. [Control Flow](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/controlflow.md)
+4. [Functions](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/functions.md)
+5. [Digital Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/digitalinput.md)
+6. [Challenge: Blink Re-Code](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/blink-recode.md)
+7. [Challenge: LED Flashlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/led-flashlight.md)
 
 ### Arduino Concepts
-1. [Digital Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/digitalinput.md)
+
 2. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
 3. [Analog Output](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analogoutput.md)
 4. [Analog Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analoginput.md)
