@@ -30,6 +30,7 @@ This is broken into four sections. Introductory Concepts, Arduino Concepts, Prog
 1. [Understanding Analog and Digital](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/understanding-analog-digital.md)
 2. [Analog Output](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analogoutput.md)
 3. [Fading LED](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/fading-led.md)
+4. Going Further: [Multiple LED Fade](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/multifade.md)
 
 ### Day 4: Analog Input and More
 1. [Analog Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analoginput.md)
