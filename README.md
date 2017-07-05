@@ -34,10 +34,12 @@ This is broken into four sections. Introductory Concepts, Arduino Concepts, Prog
 
 ### Day 4: Analog Input and More
 1. [Analog Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analoginput.md)
-2. [Serial Monitor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/serial.md)
-3. [LED Dimmer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/dimmableled.md)
-4. [LED Nightlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/nightlight.md)
-5. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
+2. [Potentiometer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/potentiometer.md)
+3. [Photoresistor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/photoresistor.md)
+4. [Serial Monitor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/serial.md)
+5. [LED Dimmer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/dimmableled.md)
+6. [LED Nightlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/nightlight.md)
+7. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
 
 ### Day 5: Servo Greeter
 1. [Servo Greeter](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/servogreet.md)
