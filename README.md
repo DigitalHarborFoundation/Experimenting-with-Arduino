@@ -9,42 +9,55 @@ Certain guides and projects contain code from the [Arduino Reference](http://www
 ## Table of Contents
 This is broken into four sections. Introductory Concepts, Arduino Concepts, Programming Concepts, and Projects and Challenges.
 
-### First Connections
-1. [Introduction to Arduino](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/intro.md)
+### Day 1: First Connections
+1. [Introduction to Arduino](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/introduction-arduino.md)
 2. [Intro to the Arduino IDE](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/introide.md)
 3. [Connecting the Board](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/ide.md)
-4. [Arduino Coding Basics](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/progbasics.md)
+4. [Arduino Coding Basics](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/arduino-programming-basics.md)
+5. [Working with Breadboards](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/breadboard.md)
+6. [Circuit Diagrams](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/introduction/circuit-diagrams.md)
 
-### Programming Concepts
+### Day 2: Variables and Control Flow
 1. [Variables](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/variables.md)
-2. [Control Flow](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/controlflow.md)
-3. [Functions](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/functions.md)
+2. [Conditional Logic]()
+3. [Control Flow](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/controlflow.md)
+4. [Functions](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/programming-concepts/functions.md)
+5. [Digital Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/digitalinput.md)
+6. [Challenge: Blink Re-Code](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/blink-recode.md)
+7. [Challenge: LED Flashlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/led-flashlight.md)
 
-### Arduino Concepts
-1. [Digital Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/digitalinput.md)
-2. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
-3. [Analog Output](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analogoutput.md)
-4. [Analog Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analoginput.md)
-5. [The Potentiometer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/potentiometer.md)
-6. [The Photoresistor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/photoresistor.md)
-7. [The Serial Monitor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/serial.md)
-8. [Sound](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/sound.md)
-9. [Tilt Sensor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/tiltsensor.md)
-10. [The FSR](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/fsr.md)
+### Day 3: Analog Output and More
+1. [Understanding Analog and Digital](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/understanding-analog-digital.md)
+2. [Analog Output](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analogoutput.md)
+3. [Fading LED](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/fading-led.md)
+4. Going Further: [Multiple LED Fade](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/multifade.md)
 
-### Projects and Challenges
-1. [Blinking and Beyond](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/blinkbeyond.md)
-2. [Traffic Light](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/trafficlight.md)
-3. [Pushbutton](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/pushbutton.md)
-4. [Flashlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/flashlight.md)
-5. [Code Fade](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/codefade.md)
-6. [Multiple Fades](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/multifade.md)
-7. [Servo Greeter](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/servogreet.md)
-8. [Dimmable LED](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/dimmableled.md)
-9. [Night Light](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/nightlight.md)
-10. [Basic Theremin](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/theremin.md)
+### Day 4: Analog Input and More
+1. [Analog Input](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/analoginput.md)
+2. [Potentiometer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/potentiometer.md)
+3. [Photoresistor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/photoresistor.md)
+4. [Serial Monitor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/serial.md)
+5. [LED Dimmer](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/dimmableled.md)
+6. [LED Nightlight](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/nightlight.md)
+7. [Servo Motors](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/servo.md)
 
---- 
+### Day 5: Servo Greeter
+1. [Servo Greeter](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/servogreet.md)
+
+### Day 6: Piezo Element and More Experiments
+1. [Piezo Element](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/piezo.md)
+2. [Theremin](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/theremin.md)
+
+### Day 7: FSR, Tilt Sensor, and More
+1. [FSR](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/fsr.md)
+2. [Tilt Sensor](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/arduino-concepts/tiltsensor.md)
+
+### Day 8: Other Projects, Bonus Challenges
+
+### Days 9 - 10: Capstone!
+1. [Capstone Project](https://github.com/jonathanprozzi/Experimenting-with-Arduino/blob/master/projects-challenges/capstone-project.md)
+
+---
 ## License
 
 This collection of guides and projects is available under the Creative Commons 3 license:
